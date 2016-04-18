@@ -9,12 +9,13 @@ public class Selection {
 		
 		Scanner input = new Scanner(System.in);
 		int in;
+		System.out.println("정부를 입력하시오 : ");
 		in = input.nextInt();
 		// 한줄이건 두줄이건 중괄호 붙이는 버릇가지자//
 		
 		if(in==0){
 			System.out.println("in is 0");
-		}else if((in%2)==0){
+		}if((in%2)==0){
 			System.out.println("in is even");
 		}else {
 			System.out.println("in is odd");
