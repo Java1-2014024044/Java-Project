@@ -3,7 +3,7 @@ package java_0502;
 public class Car {
 	private String model;
 	private String color;
-	private int speed;
+	private static int speed;
 	
 	private int id;
 	static int numbers = 0;
